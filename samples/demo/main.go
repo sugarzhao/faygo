@@ -37,6 +37,7 @@ func main() {
 		app2 := faygo.New("myapp2", "1.0")
 		router.Route2(app2)
 	}
+	// let's start
 	faygo.Run()
 }
 
